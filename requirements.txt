@@ -4,3 +4,4 @@ heroku==0.1.4
 Flask-Caching==2.0.1
 Flask-Mail==0.9.1
 Jinja2==3.0.3
+Werkzeug==2.2.3
