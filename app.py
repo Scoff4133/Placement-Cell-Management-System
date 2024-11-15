@@ -1,3 +1,8 @@
+import os
+
+if 'DISPLAY' in os.environ:
+    import pyautogui as pag
+	
 from flask import Flask, request, session, redirect, url_for, render_template, flash
 from flask_session import Session
 from flask_mail import Mail,Message
